@@ -43,6 +43,8 @@
         
         NSLog(@"点击了2");
         
+        NSString *str = "你好";
+        
     };
     
     return cell;

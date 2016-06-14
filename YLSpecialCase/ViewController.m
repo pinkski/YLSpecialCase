@@ -43,12 +43,7 @@
         
         NSLog(@"点击了2");
         
-<<<<<<< HEAD
-        
-=======
-        NSString *str = "你好";
->>>>>>> 6c90a2f... add str
-        
+
     };
     
     return cell;

@@ -9,17 +9,22 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "YLSwizzlingCase.h"
+#import "YLThread.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         
-        YLSwizzlingCase *swizzlingCase = [YLSwizzlingCase new];
-        [swizzlingCase doReplace];
-        [swizzlingCase oldFunction];
+//        YLSwizzlingCase *swizzlingCase = [YLSwizzlingCase new];
+//        [swizzlingCase doReplace];
+//        [swizzlingCase oldFunction];
         
         
-//        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        YLThread *thread = [YLThread new];
+        [thread runMutex];
         
-        return 0;
+        
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        
+//        return 0;
     }
 }

@@ -8,9 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "YLSwizzlingCase.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        
+        YLSwizzlingCase *swizzlingCase = [YLSwizzlingCase new];
+        [swizzlingCase doReplace];
+        [swizzlingCase oldFunction];
+        
+        
+//        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        
+        return 0;
     }
 }

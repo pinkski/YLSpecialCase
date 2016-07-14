@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		A94FCF651C43D78A00AD55BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FCF641C43D78A00AD55BC /* main.m */; };
 		A94FCF681C43D78A00AD55BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FCF671C43D78A00AD55BC /* AppDelegate.m */; };
-		A94FCF6B1C43D78A00AD55BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FCF6A1C43D78A00AD55BC /* ViewController.m */; };
 		A94FCF6E1C43D78A00AD55BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94FCF6C1C43D78A00AD55BC /* Main.storyboard */; };
 		A94FCF701C43D78A00AD55BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94FCF6F1C43D78A00AD55BC /* Assets.xcassets */; };
 		A94FCF731C43D78A00AD55BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94FCF711C43D78A00AD55BC /* LaunchScreen.storyboard */; };
 		A94FCF7E1C43D78A00AD55BC /* YLSpecialCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FCF7D1C43D78A00AD55BC /* YLSpecialCaseTests.m */; };
 		A94FCF891C43D78A00AD55BC /* YLSpecialCaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FCF881C43D78A00AD55BC /* YLSpecialCaseUITests.m */; };
-		A94FCF981C43DB8700AD55BC /* YLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FCF971C43DB8700AD55BC /* YLTableViewCell.m */; };
+		A960B6AD1D374A3500E51EA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A960B6AA1D374A3500E51EA1 /* ViewController.m */; };
+		A960B6AE1D374A3500E51EA1 /* YLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A960B6AC1D374A3500E51EA1 /* YLTableViewCell.m */; };
+		A960B6B21D374ABC00E51EA1 /* YLSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A960B6B11D374ABC00E51EA1 /* YLSwizzling.m */; };
+		A960B6B51D374E0800E51EA1 /* YLSwizzlingCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A960B6B41D374E0800E51EA1 /* YLSwizzlingCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,6 @@
 		A94FCF641C43D78A00AD55BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A94FCF661C43D78A00AD55BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A94FCF671C43D78A00AD55BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A94FCF691C43D78A00AD55BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A94FCF6A1C43D78A00AD55BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A94FCF6D1C43D78A00AD55BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A94FCF6F1C43D78A00AD55BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A94FCF721C43D78A00AD55BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,8 +52,14 @@
 		A94FCF841C43D78A00AD55BC /* YLSpecialCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLSpecialCaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94FCF881C43D78A00AD55BC /* YLSpecialCaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSpecialCaseUITests.m; sourceTree = "<group>"; };
 		A94FCF8A1C43D78A00AD55BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A94FCF961C43DB8700AD55BC /* YLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTableViewCell.h; sourceTree = "<group>"; };
-		A94FCF971C43DB8700AD55BC /* YLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTableViewCell.m; sourceTree = "<group>"; };
+		A960B6A91D374A3500E51EA1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A960B6AA1D374A3500E51EA1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A960B6AB1D374A3500E51EA1 /* YLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTableViewCell.h; sourceTree = "<group>"; };
+		A960B6AC1D374A3500E51EA1 /* YLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTableViewCell.m; sourceTree = "<group>"; };
+		A960B6B01D374ABC00E51EA1 /* YLSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSwizzling.h; sourceTree = "<group>"; };
+		A960B6B11D374ABC00E51EA1 /* YLSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSwizzling.m; sourceTree = "<group>"; };
+		A960B6B31D374E0800E51EA1 /* YLSwizzlingCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSwizzlingCase.h; sourceTree = "<group>"; };
+		A960B6B41D374E0800E51EA1 /* YLSwizzlingCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSwizzlingCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +110,10 @@
 		A94FCF621C43D78A00AD55BC /* YLSpecialCase */ = {
 			isa = PBXGroup;
 			children = (
+				A960B6A81D374A3500E51EA1 /* Tableview */,
+				A960B6AF1D374A6F00E51EA1 /* Swizzling */,
 				A94FCF661C43D78A00AD55BC /* AppDelegate.h */,
 				A94FCF671C43D78A00AD55BC /* AppDelegate.m */,
-				A94FCF691C43D78A00AD55BC /* ViewController.h */,
-				A94FCF6A1C43D78A00AD55BC /* ViewController.m */,
-				A94FCF961C43DB8700AD55BC /* YLTableViewCell.h */,
-				A94FCF971C43DB8700AD55BC /* YLTableViewCell.m */,
 				A94FCF6C1C43D78A00AD55BC /* Main.storyboard */,
 				A94FCF6F1C43D78A00AD55BC /* Assets.xcassets */,
 				A94FCF711C43D78A00AD55BC /* LaunchScreen.storyboard */,
@@ -143,6 +147,28 @@
 				A94FCF8A1C43D78A00AD55BC /* Info.plist */,
 			);
 			path = YLSpecialCaseUITests;
+			sourceTree = "<group>";
+		};
+		A960B6A81D374A3500E51EA1 /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				A960B6A91D374A3500E51EA1 /* ViewController.h */,
+				A960B6AA1D374A3500E51EA1 /* ViewController.m */,
+				A960B6AB1D374A3500E51EA1 /* YLTableViewCell.h */,
+				A960B6AC1D374A3500E51EA1 /* YLTableViewCell.m */,
+			);
+			path = Tableview;
+			sourceTree = "<group>";
+		};
+		A960B6AF1D374A6F00E51EA1 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				A960B6B01D374ABC00E51EA1 /* YLSwizzling.h */,
+				A960B6B11D374ABC00E51EA1 /* YLSwizzling.m */,
+				A960B6B31D374E0800E51EA1 /* YLSwizzlingCase.h */,
+				A960B6B41D374E0800E51EA1 /* YLSwizzlingCase.m */,
+			);
+			path = Swizzling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,10 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A94FCF981C43DB8700AD55BC /* YLTableViewCell.m in Sources */,
-				A94FCF6B1C43D78A00AD55BC /* ViewController.m in Sources */,
 				A94FCF681C43D78A00AD55BC /* AppDelegate.m in Sources */,
 				A94FCF651C43D78A00AD55BC /* main.m in Sources */,
+				A960B6B51D374E0800E51EA1 /* YLSwizzlingCase.m in Sources */,
+				A960B6AE1D374A3500E51EA1 /* YLTableViewCell.m in Sources */,
+				A960B6AD1D374A3500E51EA1 /* ViewController.m in Sources */,
+				A960B6B21D374ABC00E51EA1 /* YLSwizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +533,7 @@
 				A94FCF8F1C43D78A00AD55BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A94FCF901C43D78A00AD55BC /* Build configuration list for PBXNativeTarget "YLSpecialCaseTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +542,7 @@
 				A94FCF921C43D78A00AD55BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A94FCF931C43D78A00AD55BC /* Build configuration list for PBXNativeTarget "YLSpecialCaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +551,7 @@
 				A94FCF951C43D78A00AD55BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

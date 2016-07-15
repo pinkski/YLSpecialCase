@@ -21,6 +21,7 @@
 		A960B6B91D3767C300E51EA1 /* YLAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A960B6B81D3767C200E51EA1 /* YLAnimation.m */; };
 		A960B6BD1D37AD6700E51EA1 /* YLThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A960B6BC1D37AD6700E51EA1 /* YLThread.m */; };
 		A9D707801D38890500E47950 /* YLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D7077F1D38890500E47950 /* YLRuntime.m */; };
+		A9D707831D38BC1D00E47950 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D707821D38BC1D00E47950 /* UIViewController+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		A960B6BC1D37AD6700E51EA1 /* YLThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLThread.m; sourceTree = "<group>"; };
 		A9D7077E1D38890500E47950 /* YLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRuntime.h; sourceTree = "<group>"; };
 		A9D7077F1D38890500E47950 /* YLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRuntime.m; sourceTree = "<group>"; };
+		A9D707811D38BC1D00E47950 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		A9D707821D38BC1D00E47950 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				A960B6B11D374ABC00E51EA1 /* YLSwizzling.m */,
 				A960B6B31D374E0800E51EA1 /* YLSwizzlingCase.h */,
 				A960B6B41D374E0800E51EA1 /* YLSwizzlingCase.m */,
+				A9D707811D38BC1D00E47950 /* UIViewController+Swizzling.h */,
+				A9D707821D38BC1D00E47950 /* UIViewController+Swizzling.m */,
 			);
 			path = Swizzling;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				A9D707801D38890500E47950 /* YLRuntime.m in Sources */,
 				A960B6AD1D374A3500E51EA1 /* ViewController.m in Sources */,
 				A960B6B91D3767C300E51EA1 /* YLAnimation.m in Sources */,
+				A9D707831D38BC1D00E47950 /* UIViewController+Swizzling.m in Sources */,
 				A960B6B21D374ABC00E51EA1 /* YLSwizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

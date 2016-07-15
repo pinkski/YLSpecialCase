@@ -19,8 +19,8 @@ int main(int argc, char * argv[]) {
 //        [swizzlingCase oldFunction];
         
         
-        YLThread *thread = [YLThread new];
-        [thread runMutex];
+//        YLThread *thread = [YLThread new];
+//        [thread runMutex];
         
         
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));

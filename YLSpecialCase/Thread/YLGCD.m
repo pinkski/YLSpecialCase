@@ -50,6 +50,43 @@
     //4, 一组线程按顺序执行， 有序
     dispatch_queue_t queue2 = dispatch_queue_create("gcd_test", DISPATCH_QUEUE_CONCURRENT);
     
+    dispatch_async(queue2, ^{
+        
+    });
+    
+    dispatch_async(queue2, ^{
+        
+    });
+    
+    dispatch_async(queue2, ^{
+        
+    });
+    
+    dispatch_barrier_async(queue2, ^{
+        
+    });
+    
+    //5, 执行n次
+    dispatch_apply(5, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(size_t index) {
+        
+    });
+    
+    //6, timer
+    
+    //7, 单例
+    
+}
+
+
+- (void)test {
+
+    // pthread
+    
+    // NSThread
+    
+    // GCD
+    
+    // NSOperation
     
 }
 

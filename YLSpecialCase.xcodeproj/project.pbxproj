@@ -23,6 +23,7 @@
 		A9728DFF1D3E09E4008427E2 /* YLCGView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9728DFE1D3E09E4008427E2 /* YLCGView.m */; };
 		A9728E021D3E0BD6008427E2 /* YLGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = A9728E011D3E0BD6008427E2 /* YLGCD.m */; };
 		A9728E051D3F76A4008427E2 /* YLOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9728E041D3F76A4008427E2 /* YLOperation.m */; };
+		A9728E091D3F7C69008427E2 /* YLString.m in Sources */ = {isa = PBXBuildFile; fileRef = A9728E081D3F7C69008427E2 /* YLString.m */; };
 		A9D707801D38890500E47950 /* YLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D7077F1D38890500E47950 /* YLRuntime.m */; };
 		A9D707831D38BC1D00E47950 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D707821D38BC1D00E47950 /* UIViewController+Swizzling.m */; };
 		A9D707871D3C87F200E47950 /* YLCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D707861D3C87F200E47950 /* YLCoreGraphics.m */; };
@@ -79,6 +80,8 @@
 		A9728E011D3E0BD6008427E2 /* YLGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLGCD.m; sourceTree = "<group>"; };
 		A9728E031D3F76A4008427E2 /* YLOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLOperation.h; sourceTree = "<group>"; };
 		A9728E041D3F76A4008427E2 /* YLOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLOperation.m; sourceTree = "<group>"; };
+		A9728E071D3F7C69008427E2 /* YLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLString.h; sourceTree = "<group>"; };
+		A9728E081D3F7C69008427E2 /* YLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLString.m; sourceTree = "<group>"; };
 		A9D7077E1D38890500E47950 /* YLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRuntime.h; sourceTree = "<group>"; };
 		A9D7077F1D38890500E47950 /* YLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRuntime.m; sourceTree = "<group>"; };
 		A9D707811D38BC1D00E47950 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
@@ -137,6 +140,7 @@
 		A94FCF621C43D78A00AD55BC /* YLSpecialCase */ = {
 			isa = PBXGroup;
 			children = (
+				A9728E061D3F7C5D008427E2 /* String */,
 				A9D707881D3CAF3200E47950 /* Player */,
 				A9D707841D3C87DA00E47950 /* CoreGraphics */,
 				A9D7077D1D3888FB00E47950 /* Runtime */,
@@ -225,6 +229,15 @@
 				A9728E041D3F76A4008427E2 /* YLOperation.m */,
 			);
 			path = Thread;
+			sourceTree = "<group>";
+		};
+		A9728E061D3F7C5D008427E2 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				A9728E071D3F7C69008427E2 /* YLString.h */,
+				A9728E081D3F7C69008427E2 /* YLString.m */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		A9D7077D1D3888FB00E47950 /* Runtime */ = {
@@ -390,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A94FCF681C43D78A00AD55BC /* AppDelegate.m in Sources */,
+				A9728E091D3F7C69008427E2 /* YLString.m in Sources */,
 				A94FCF651C43D78A00AD55BC /* main.m in Sources */,
 				A960B6BD1D37AD6700E51EA1 /* YLThread.m in Sources */,
 				A960B6B51D374E0800E51EA1 /* YLSwizzlingCase.m in Sources */,

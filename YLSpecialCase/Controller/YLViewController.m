@@ -9,6 +9,10 @@
 
 #import "YLViewController.h"
 
+@interface YLViewController()<UITableViewDataSource, UITableViewDelegate>
+
+@end
+
 @implementation YLViewController
 
 //当我们用到控制器view时，就会调用控制器view的get方法，在get方法内部，首先判断view是否已经创建，如果已存在，则直接返回存在的view，如果不存在，则调用控制器的loadView方法，在控制器没有被销毁的情况下，loadView也可能会被执行多次
@@ -35,5 +39,31 @@
 // 6,如果都没有，则创建一个空白的xib
 
 // storyboard加载的是控制器及控制器view，而xib加载的仅仅只是控制器的view。
+
+
+#pragma mark - UITableViewDataSource
+
+// 1, 重用
+// 2, 减少不必要的透明
+// 3, 避免渐变、图片、离屏渲染
+// 4, 缓存高度
+// 5, 异步加载，缓存数据
+// 6, 使用shadowPath设置阴影效果
+// 7, 减少subview数量，对于subview较多或者多变的cell，考虑使用异步绘制或重写drawRect
+// 8,
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"" forIndexPath:indexPath];
+    
+    if (indexPath.row % 2) {
+        
+    } else {
+        
+    }
+    
+    return nil;
+}
+
 
 @end

@@ -54,12 +54,12 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector) {
 
 
 
-void newViewDidAppear (UIViewController *self, SEL _cmd, BOOL aniamted) {
-    
-    gOriginalViewDidAppear(self, _cmd, aniamted);
-    
-    NSLog(@"日志：记录一次");
-}
+//void newViewDidAppear (UIViewController *self, SEL _cmd, BOOL aniamted) {
+//    
+//    gOriginalViewDidAppear(self, _cmd, aniamted);
+//    
+//    NSLog(@"日志：记录一次");
+//}
 
 
 @end

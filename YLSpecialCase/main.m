@@ -10,6 +10,7 @@
 #import "AppDelegate.h"
 #import "YLSwizzlingCase.h"
 #import "YLThread.h"
+#import "YLRunloop.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
@@ -21,6 +22,9 @@ int main(int argc, char * argv[]) {
         
 //        YLThread *thread = [YLThread new];
 //        [thread runMutex];
+        
+        YLRunloop *runloop = [YLRunloop new];
+        [runloop run];
         
         
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));

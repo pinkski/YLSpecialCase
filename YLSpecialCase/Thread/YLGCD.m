@@ -7,6 +7,8 @@
 //
 
 #import "YLGCD.h"
+#import <objc/runtime.h>
+#import <objc/objc.h>
 
 @implementation YLGCD
 
@@ -88,6 +90,22 @@
     
     // NSOperation
     
+}
+
+
+- (void)launch {
+    
+    //_cmd表示当前selector
+    
+    if (objc_getAssociatedObject(self, _cmd)) {
+        
+        return;
+    } else {
+        
+        objc_setAssociatedObject(self, _cmd, @"Launched", OBJC_ASSOCIATION_RETAIN);
+    }
+    
+    NSLog(@"只执行一次，一个对象");
 }
 
 @end

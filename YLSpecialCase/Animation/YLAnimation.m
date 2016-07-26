@@ -24,11 +24,11 @@
         
     }];
     
-    //CoreAnimation
+    //CoreAnimation  CAAnimation
     // 属性动画
     CAPropertyAnimation *property;
-    CABasicAnimation *basic;
-    CAKeyframeAnimation *keyframe;
+        CABasicAnimation *basic;
+        CAKeyframeAnimation *keyframe;
     
     // 动画组
     CAAnimationGroup *group;

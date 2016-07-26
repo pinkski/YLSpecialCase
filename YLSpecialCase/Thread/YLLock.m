@@ -15,7 +15,7 @@
     
 //    [self case1];
     
-    [self case4];
+    [self case5];
     
 //    [self case3];
     
@@ -95,11 +95,12 @@
     });
     NSLog(@"task 4");
     while (1) {
-        
+       // 阻塞了主队列
     }
     NSLog(@"task 5");
 }
 
 
+// 总结：在进入同步线程阻塞后的同一个队列上，是否存在多个任务是否有互相等待
 
 @end

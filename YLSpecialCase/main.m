@@ -27,8 +27,8 @@ int main(int argc, char * argv[]) {
 //        YLRunloop *runloop = [YLRunloop new];
 //        [runloop run];
         
-        YLLock *lock = [YLLock new];
-        [lock run];
+//        YLLock *lock = [YLLock new];
+//        [lock run];
         
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
         

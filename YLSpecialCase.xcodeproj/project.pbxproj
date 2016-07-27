@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A924EB4C1D41C1D900C19B82 /* YLAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = A924EB4B1D41C1D900C19B82 /* YLAsync.m */; };
 		A9357CD71D47667000CF13E3 /* YLLock.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357CD61D47667000CF13E3 /* YLLock.m */; };
+		A9357CDA1D48552000CF13E3 /* YLSynchronized.m in Sources */ = {isa = PBXBuildFile; fileRef = A9357CD91D48552000CF13E3 /* YLSynchronized.m */; };
 		A94FCF651C43D78A00AD55BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FCF641C43D78A00AD55BC /* main.m */; };
 		A94FCF681C43D78A00AD55BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FCF671C43D78A00AD55BC /* AppDelegate.m */; };
 		A94FCF6E1C43D78A00AD55BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94FCF6C1C43D78A00AD55BC /* Main.storyboard */; };
@@ -61,6 +62,8 @@
 		A924EB4B1D41C1D900C19B82 /* YLAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAsync.m; sourceTree = "<group>"; };
 		A9357CD51D47667000CF13E3 /* YLLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLock.h; sourceTree = "<group>"; };
 		A9357CD61D47667000CF13E3 /* YLLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLLock.m; sourceTree = "<group>"; };
+		A9357CD81D48552000CF13E3 /* YLSynchronized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSynchronized.h; sourceTree = "<group>"; };
+		A9357CD91D48552000CF13E3 /* YLSynchronized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSynchronized.m; sourceTree = "<group>"; };
 		A94FCF601C43D78A00AD55BC /* YLSpecialCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLSpecialCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94FCF641C43D78A00AD55BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A94FCF661C43D78A00AD55BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -273,6 +276,8 @@
 				A9728E041D3F76A4008427E2 /* YLOperation.m */,
 				A9357CD51D47667000CF13E3 /* YLLock.h */,
 				A9357CD61D47667000CF13E3 /* YLLock.m */,
+				A9357CD81D48552000CF13E3 /* YLSynchronized.h */,
+				A9357CD91D48552000CF13E3 /* YLSynchronized.m */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
@@ -533,6 +538,7 @@
 				A960B6B21D374ABC00E51EA1 /* YLSwizzling.m in Sources */,
 				A9728E111D3F859B008427E2 /* YLBlock.m in Sources */,
 				A9D7078B1D3CAF3D00E47950 /* YLPlayer.m in Sources */,
+				A9357CDA1D48552000CF13E3 /* YLSynchronized.m in Sources */,
 				A9A684241D41FE4D00F85ACD /* YLOptimize.m in Sources */,
 				A9728DFF1D3E09E4008427E2 /* YLCGView.m in Sources */,
 				A9728E021D3E0BD6008427E2 /* YLGCD.m in Sources */,

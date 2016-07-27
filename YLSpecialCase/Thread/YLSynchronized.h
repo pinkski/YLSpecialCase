@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+/**
+ *  互斥锁
+ */
 @interface YLSynchronized : UIViewController
 
 @end

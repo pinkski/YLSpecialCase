@@ -10,6 +10,8 @@
 
 @interface YLLock : NSObject
 
+@property (nonatomic, assign) int count;
+
 - (void)run;
 
 @end

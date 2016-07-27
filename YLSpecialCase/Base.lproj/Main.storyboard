@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="129" y="321"/>
         </scene>
-        <!--Synchronized-->
+        <!--Block-->
         <scene sceneID="ZIv-Bc-vP7">
             <objects>
-                <viewController id="8RC-M4-mRe" customClass="YLSynchronized" sceneMemberID="viewController">
+                <viewController id="8RC-M4-mRe" customClass="YLBlock" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fno-5P-ewf"/>
                         <viewControllerLayoutGuide type="bottom" id="P5v-pt-7sE"/>

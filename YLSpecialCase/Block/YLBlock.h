@@ -10,7 +10,7 @@
 
 typedef void(^YLSpecialBlock)(void);
 
-@interface YLBlock : NSObject
+@interface YLBlock : UIViewController
 
 @property (nonatomic, copy) NSString *name;
 

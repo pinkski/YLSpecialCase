@@ -33,8 +33,11 @@
 		A9728E191D40EF6D008427E2 /* YLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A9728E181D40EF6D008427E2 /* YLCache.m */; };
 		A9728E1D1D40F1CA008427E2 /* YLAutorelease.m in Sources */ = {isa = PBXBuildFile; fileRef = A9728E1C1D40F1CA008427E2 /* YLAutorelease.m */; };
 		A9728E211D40FB0E008427E2 /* YLRunloop.m in Sources */ = {isa = PBXBuildFile; fileRef = A9728E201D40FB0E008427E2 /* YLRunloop.m */; };
+		A983BBC91D531737004847E6 /* YLRunloopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A983BBC81D531737004847E6 /* YLRunloopViewController.m */; };
 		A9A684241D41FE4D00F85ACD /* YLOptimize.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A684231D41FE4D00F85ACD /* YLOptimize.m */; };
 		A9AE4A061D4892C800A3B17E /* YLBlockPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A051D4892C800A3B17E /* YLBlockPerson.m */; };
+		A9AE4A0D1D48A78200A3B17E /* YLCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A0C1D48A78200A3B17E /* YLCoding.m */; };
+		A9AE4A3B1D48F15B00A3B17E /* YLSemphore.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AE4A3A1D48F15B00A3B17E /* YLSemphore.m */; };
 		A9D707801D38890500E47950 /* YLRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D7077F1D38890500E47950 /* YLRuntime.m */; };
 		A9D707831D38BC1D00E47950 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D707821D38BC1D00E47950 /* UIViewController+Swizzling.m */; };
 		A9D707871D3C87F200E47950 /* YLCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D707861D3C87F200E47950 /* YLCoreGraphics.m */; };
@@ -111,10 +114,16 @@
 		A9728E1C1D40F1CA008427E2 /* YLAutorelease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAutorelease.m; sourceTree = "<group>"; };
 		A9728E1F1D40FB0E008427E2 /* YLRunloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRunloop.h; sourceTree = "<group>"; };
 		A9728E201D40FB0E008427E2 /* YLRunloop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRunloop.m; sourceTree = "<group>"; };
+		A983BBC71D531737004847E6 /* YLRunloopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRunloopViewController.h; sourceTree = "<group>"; };
+		A983BBC81D531737004847E6 /* YLRunloopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRunloopViewController.m; sourceTree = "<group>"; };
 		A9A684221D41FE4D00F85ACD /* YLOptimize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLOptimize.h; sourceTree = "<group>"; };
 		A9A684231D41FE4D00F85ACD /* YLOptimize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLOptimize.m; sourceTree = "<group>"; };
 		A9AE4A041D4892C800A3B17E /* YLBlockPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBlockPerson.h; sourceTree = "<group>"; };
 		A9AE4A051D4892C800A3B17E /* YLBlockPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBlockPerson.m; sourceTree = "<group>"; };
+		A9AE4A0B1D48A78200A3B17E /* YLCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCoding.h; sourceTree = "<group>"; };
+		A9AE4A0C1D48A78200A3B17E /* YLCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCoding.m; sourceTree = "<group>"; };
+		A9AE4A391D48F15B00A3B17E /* YLSemphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSemphore.h; sourceTree = "<group>"; };
+		A9AE4A3A1D48F15B00A3B17E /* YLSemphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSemphore.m; sourceTree = "<group>"; };
 		A9D7077E1D38890500E47950 /* YLRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLRuntime.h; sourceTree = "<group>"; };
 		A9D7077F1D38890500E47950 /* YLRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLRuntime.m; sourceTree = "<group>"; };
 		A9D707811D38BC1D00E47950 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
@@ -182,6 +191,7 @@
 		A94FCF621C43D78A00AD55BC /* YLSpecialCase */ = {
 			isa = PBXGroup;
 			children = (
+				A9AE4A0A1D48A77700A3B17E /* Coding */,
 				A9A684211D41FE3C00F85ACD /* Optimize */,
 				A924EB491D41C1CE00C19B82 /* Async */,
 				A9728E1E1D40FB02008427E2 /* Runloop */,
@@ -281,6 +291,8 @@
 				A9357CD61D47667000CF13E3 /* YLLock.m */,
 				A9357CD81D48552000CF13E3 /* YLSynchronized.h */,
 				A9357CD91D48552000CF13E3 /* YLSynchronized.m */,
+				A9AE4A391D48F15B00A3B17E /* YLSemphore.h */,
+				A9AE4A3A1D48F15B00A3B17E /* YLSemphore.m */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
@@ -346,6 +358,8 @@
 			children = (
 				A9728E1F1D40FB0E008427E2 /* YLRunloop.h */,
 				A9728E201D40FB0E008427E2 /* YLRunloop.m */,
+				A983BBC71D531737004847E6 /* YLRunloopViewController.h */,
+				A983BBC81D531737004847E6 /* YLRunloopViewController.m */,
 			);
 			path = Runloop;
 			sourceTree = "<group>";
@@ -357,6 +371,15 @@
 				A9A684231D41FE4D00F85ACD /* YLOptimize.m */,
 			);
 			path = Optimize;
+			sourceTree = "<group>";
+		};
+		A9AE4A0A1D48A77700A3B17E /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				A9AE4A0B1D48A78200A3B17E /* YLCoding.h */,
+				A9AE4A0C1D48A78200A3B17E /* YLCoding.m */,
+			);
+			path = Coding;
 			sourceTree = "<group>";
 		};
 		A9D7077D1D3888FB00E47950 /* Runtime */ = {
@@ -522,10 +545,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9728E1D1D40F1CA008427E2 /* YLAutorelease.m in Sources */,
+				A983BBC91D531737004847E6 /* YLRunloopViewController.m in Sources */,
 				A94FCF681C43D78A00AD55BC /* AppDelegate.m in Sources */,
 				A9728E091D3F7C69008427E2 /* YLString.m in Sources */,
 				A94FCF651C43D78A00AD55BC /* main.m in Sources */,
 				A960B6BD1D37AD6700E51EA1 /* YLThread.m in Sources */,
+				A9AE4A3B1D48F15B00A3B17E /* YLSemphore.m in Sources */,
 				A960B6B51D374E0800E51EA1 /* YLSwizzlingCase.m in Sources */,
 				A960B6AE1D374A3500E51EA1 /* YLTableViewCell.m in Sources */,
 				A9728E151D40D896008427E2 /* YLOffScreenRender.m in Sources */,
@@ -547,6 +572,7 @@
 				A9357CDA1D48552000CF13E3 /* YLSynchronized.m in Sources */,
 				A9A684241D41FE4D00F85ACD /* YLOptimize.m in Sources */,
 				A9728DFF1D3E09E4008427E2 /* YLCGView.m in Sources */,
+				A9AE4A0D1D48A78200A3B17E /* YLCoding.m in Sources */,
 				A9728E021D3E0BD6008427E2 /* YLGCD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
